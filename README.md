@@ -44,5 +44,29 @@ or
 ```shell
 yarn start
 ```
+EC2 script on creation to install the CodeDeploy Agent:
+
+#!/bin/bash
+```shell
+sudo yum -y update
+sudo yum -y install ruby
+sudo yum -y install wget
+cd /home/ec2-user
+wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
+sudo chmod +x ./install
+sudo ./install auto
+```
 
 ### Backend running on http://localhost:8080.
+
+Check if CodeDeploy agent is running:
+
+```shell
+sudo service codedeploy-agent status
+```
+
+Uninstall CodeDeploy Agent:
+
+```shell
+sudo yum erase codedeploy-agent
+```
