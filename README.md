@@ -46,8 +46,8 @@ yarn start
 ```
 EC2 script on creation to install the CodeDeploy Agent:
 
-#!/bin/bash
 ```shell
+#!/bin/bash
 sudo yum -y update
 sudo yum -y install ruby
 sudo yum -y install wget
