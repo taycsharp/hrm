@@ -1,14 +1,14 @@
-# MERAKI - HR Management
+# Sagodev - HR Management
 
-Let's discover **Meraki HRM System**.
+Let's discover **Sagodev HRM System**.
 
 
-## This is Meraki - Backend
+## This is HRM - Backend
 
 --------------------------------
 
 ### Demo Link
-https://merakihrm.herokuapp.com/
+https://sagodev.com/
 
 ## Getting Started
 
@@ -45,4 +45,4 @@ or
 yarn start
 ```
 
-### Backend running on http://localhost:5000.
+### Backend running on http://localhost:8080.
